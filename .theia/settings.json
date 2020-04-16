@@ -11,7 +11,7 @@
   "python.testing.unittestEnabled": false,
   "python.testing.pytestPath": "/workspace/.pip-modules/bin/pytest",
   "python.testing.pytestArgs": [
-    ".", "-o", "junit_family=xunit1",
+    "-o", "junit_family=xunit1"
   ],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintPath": "/home/gitpod/.pyenv/shims/pylint",
